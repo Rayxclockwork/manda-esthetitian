@@ -1,0 +1,32 @@
+header, footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: rgb(8, 74, 109) 0%;
+    padding: 1em;
+}
+
+.main-columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    margin: 4em auto;
+}
+
+
+footer {
+    padding: 4em;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .main-columns {
+        flex-wrap: wrap;
+    }
+    header, footer{
+        flex-wrap: wrap;
+    }
+}

@@ -28,7 +28,7 @@ app.use(methodOverride((request, response) => {
   }
 }));
 
-
+app.set('view engine', 'ejs');
 
 //routes//
 app.get('/', getHome);
