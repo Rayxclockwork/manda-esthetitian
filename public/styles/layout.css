@@ -1,24 +1,29 @@
 header, footer{
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items:center;
     width: 100%;
     background: rgb(8, 74, 109) 0%;
     padding: 1em;
+}
+
+footer{
+	padding: 2.5em;
 }
 
 header h1 {
 	align-content: left;
 	color: #e9e1c4;
 	font-size: 3em;
-	font-weight: bold;
 	margin-bottom: 0.3em;
+    font-family:cursive;
 }
 
 header h2 {
 	align-content: left;
 	color: #e9e1c4;
 	font-size: 2.5em;
+    font: Cambria;
 }
 
 header nav{
@@ -42,26 +47,12 @@ body section div:nth-child(2){
 	font-size: 1.5em;
 }
 
-.main-columns {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    width: 80%;
-    margin: 4em auto;
-}
-
-
-footer {
-    padding: 4em;
-    align-items: center;
-    justify-content: center;
+body{
+    background-color: blanchedalmond;
 }
 
 
 @media (max-width: 1000px) {
-    .main-columns {
-        flex-wrap: wrap;
-    }
     header, footer{
         flex-wrap: wrap;
     }
