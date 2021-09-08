@@ -11,3 +11,28 @@
     margin-right:.5em;
     border-radius: 6px;
 }
+
+#logoimg{
+    width:15em;
+    height:15em;
+}
+
+footer section:last-child p{
+    flex: 0 0 85%;
+    padding-left: 3em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    color: whitesmoke;
+}
+
+#getLocationForm p:last-child{
+    
+}
+
+#copyright{
+    background: rgb(223, 217, 182);
+    color: rgb(95, 124, 150);
+    text-align: center;
+    height: 3em;
+    line-height: 3em;
+}
