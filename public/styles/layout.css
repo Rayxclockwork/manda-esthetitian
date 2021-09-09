@@ -1,10 +1,14 @@
 header, footer{
     display: flex;
-    justify-content: space-around;
-    align-items:center;
     width: 100%;
+	align-items: center;
     background: rgb(8, 74, 109) 0%;
     padding: 1em;
+}
+
+header div {
+	flex: none;
+	width: fit-content;
 }
 
 footer{
@@ -12,7 +16,6 @@ footer{
 }
 
 header h1 {
-	align-content: left;
 	color: #e9e1c4;
 	font-size: 3em;
 	margin-bottom: 0.3em;
@@ -20,7 +23,6 @@ header h1 {
 }
 
 header h2 {
-	align-content: left;
 	color: #e9e1c4;
 	font-size: 2.5em;
     font: Cambria;
@@ -29,6 +31,9 @@ header h2 {
 header nav{
 	color: rgb(125, 124, 124);
 	font-size: 1.5em;
+	margin-top: 5em;
+	justify-self: right;
+	text-align: right;
 }
 
 header nav a{
@@ -53,7 +58,7 @@ body{
 
 
 @media (max-width: 1000px) {
-    header, footer{
+    header, footer main{
         flex-wrap: wrap;
     }
 }

@@ -13,8 +13,14 @@
 }
 
 #logoimg{
-    width:15em;
-    height:15em;
+    width:8em;
+    height:8em;
+}
+header main, footer main{
+    display: flex;
+    width:50%;
+    margin: 0 auto;
+    align-items: center;
 }
 
 footer section:last-child p{
@@ -27,12 +33,15 @@ footer section:last-child p{
 
 #serviceList{
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 20px;
+    font-family: cursive;
+    font-size: 1.5em;
+    line-height: 1.8em;
+    margin: 0 auto;
     padding: 20px;
-    width: 700px;
-    border: solid black 3px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    width: 75%;
+    border: solid rgba(186, 188, 191, 0.851) 3px;
 }
 
 #mapLocation{
