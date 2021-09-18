@@ -14,7 +14,8 @@
 
 #logoimg{
     width:8em;
-    height:8em;
+    height:10em;
+    padding: 1em;
 }
 header main, footer main{
     display: flex;
@@ -51,7 +52,7 @@ footer section:last-child p{
 
 #copyright{
     background: rgb(223, 217, 182);
-    color: rgb(95, 124, 150);
+    color: rgb(170,183,172);
     text-align: center;
     height: 3em;
     line-height: 3em;
