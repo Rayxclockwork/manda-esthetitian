@@ -32,18 +32,30 @@ footer section:last-child p{
     color: whitesmoke;
 }
 
-#serviceList{
-    text-align: center;
+p.servicesList{
+    text-indent: 40px;
+}
+
+h3 {
+    font-size: 2em;
+    text-decoration: underline;
+    text-align:left;
+}
+
+.serviceList{
     font-family: cursive;
     font-size: 1.5em;
-    line-height: 1.8em;
+    line-height: 0.9em;
+    color:rgb(200,132,81);
     margin: 0 auto;
     padding: 20px;
     margin-top: 20px;
     margin-bottom:20px;
-    width: 75%;
-    border: solid rgba(186, 188, 191, 0.851) 3px;
+    width: 60%;
+    border: solid rgba(200, 132, 81, 0.851) 3px;
 }
+
+
 
 #mapLocation{
     height:300px;
