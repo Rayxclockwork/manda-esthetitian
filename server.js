@@ -34,6 +34,7 @@ app.set('view engine', 'ejs');
 app.get('/', getHome);
 app.get('/services', getServices);
 app.get('/portfolio', getPortfolio);
+app.post('/getLocation', getLocation);
 
 
 //route handlers//
@@ -47,6 +48,19 @@ function getServices(req, res) {
 
 function getPortfolio(req, res) {
 	res.render('pages/portfolio')
+}
+
+function getLocation(request, response) {
+  let location = request.body.location;
+
+  superagent.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${location}&key=${process.env.LOCATION_API_KEY}`)
+    .then(resultsFromSuperagent => {
+      let yourAddress = resultsFromSuperagent.body.results[0].formatted_address;
+      let clinicAddress = '6316 NW Barry Rd, Kansas City, MO 64154';
+      let directionsURL = `http://maps.google.com/maps?saddr="${yourAddress}"&daddr=${clinicAddress}`;
+      response.redirect(directionsURL);
+    })
+    .catch(error => console.error(error));
 }
 
 

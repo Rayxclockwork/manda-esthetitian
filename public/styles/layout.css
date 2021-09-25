@@ -2,7 +2,7 @@ header, footer{
     display: flex;
     width: 100%;
 	align-items: center;
-    background: rgb(170,183,172) 0%;
+    background: rgb(239,232,222) 0%;
     padding: 1em;
 }
 
@@ -17,20 +17,16 @@ footer{
 }
 
 header h1 {
-	color: #e9e1c4;
+	color: rgb(161, 169, 163);
 	font-size: 3em;
 	margin-bottom: 0.3em;
     font-family:cursive;
 }
 
-header h2 {
-	color: #e9e1c4;
-	font-size: 2.5em;
-    font: Cambria;
-}
 
 header nav{
-	color: rgb(125, 124, 124);
+	color: rgb(161, 169, 163);
+	
 	font-size: 1.5em;
 	margin-top: 5em;
 	justify-self: right;
@@ -38,7 +34,11 @@ header nav{
 }
 
 header nav a{
-	color:blanchedalmond
+	color:rgb(161, 169, 163);
+}
+
+a:hover{
+	color:rgb(163,118,73);
 }
 
 body section div:nth-child(1){
@@ -54,7 +54,7 @@ body section div:nth-child(2){
 }
 
 body{
-    background-color: blanchedalmond;
+    background-color: rgb(195,206,198);
 }
 
 

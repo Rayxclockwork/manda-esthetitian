@@ -1,27 +1,20 @@
-#fbicon{
-    width:51px;
-    height:51px;
-    margin-right:.5em;
-    border-radius: 6px;
-}
-
-#igicon{
-    width:51px;
-    height:51px;
-    margin-right:.5em;
-    border-radius: 6px;
-}
-
 #logoimg{
     width:8em;
     height:10em;
     padding: 1em;
 }
-header main, footer main{
+
+
+footer main{
     display: flex;
-    width:50%;
+    width:65%;
     margin: 0 auto;
     align-items: center;
+    line-height: 1em;
+}
+
+footer main section:nth-child(1){
+    padding: 0.5em;
 }
 
 footer section:last-child p{
@@ -29,7 +22,6 @@ footer section:last-child p{
     padding-left: 3em;
     margin-bottom: 0.5em;
     text-align: left;
-    color: whitesmoke;
 }
 
 p.servicesList{
@@ -46,7 +38,7 @@ h3 {
     font-family: cursive;
     font-size: 1.5em;
     line-height: 0.9em;
-    color:rgb(200,132,81);
+    color:rgb(163,118,73);
     margin: 0 auto;
     padding: 20px;
     margin-top: 20px;
@@ -55,16 +47,14 @@ h3 {
     border: solid rgba(200, 132, 81, 0.851) 3px;
 }
 
-
-
 #mapLocation{
-    height:300px;
-    width:415px;
+    height:250px;
+    width:315px;
 }
 
 #copyright{
-    background: rgb(223, 217, 182);
-    color: rgb(170,183,172);
+    background: rgb(195,206,198);
+    color: rgb(232, 235, 232);
     text-align: center;
     height: 3em;
     line-height: 3em;
