@@ -47,6 +47,15 @@ h3 {
     border: solid rgba(200, 132, 81, 0.851) 3px;
 }
 
+#portfolio{
+    display:flex;
+}
+
+#lashLift, #lashExtension1, #lashExtension2{
+    height: 300px;
+    width:450px;
+}
+
 #mapLocation{
     height:250px;
     width:315px;
