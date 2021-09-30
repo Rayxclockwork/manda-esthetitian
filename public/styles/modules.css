@@ -35,7 +35,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 1.5em;
     color:rosybrown;
 }
 
@@ -58,15 +58,15 @@ ul{
 
 #portfolio{
     display:flex;
+    padding-bottom: 40px;
 }
 
 #lashLift, #lashExtension1, #lashExtension2{
     height: 300px;
     width:450px;
-}
+    margin-top:40px;
+    
 
-#lashExtension1, #lashExtension2{
-    margin-top: 50px;
 }
 
 #mapLocation{
