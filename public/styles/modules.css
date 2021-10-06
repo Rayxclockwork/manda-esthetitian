@@ -56,6 +56,12 @@ ul{
     border: solid rgba(200, 132, 81, 0.851) 3px;
 }
 
+#manda{
+    height: 525px;
+    width: 345px;
+    padding: 2em;
+}
+
 #portfolio{
     display:flex;
     padding-bottom: 40px;
