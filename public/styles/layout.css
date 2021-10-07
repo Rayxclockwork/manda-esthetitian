@@ -6,6 +6,10 @@ header, footer{
     padding: 1em;
 }
 
+body section{
+	display: flex;
+}
+
 header div {
 	flex: none;
 	width: fit-content;
@@ -46,15 +50,16 @@ body section div:nth-child(1){
 	font-size: 1.5em;
 }
 
-body section div:nth-child(2){
-	margin-left: 2em;
-	margin-right: 2em;
-	margin-bottom: 2em;
-	font-size: 1.5em;
-}
 
 body{
-    background-image: url("../assets/pinkpampas.jpeg") no-repeat;
+	content:"";
+    	background: linear-gradient(60deg, rgba(222,216,216,0.1) 0%, rgba(215,181,170,1) 41%, rgba(178,143,138,1) 100%), url("../assets/pinkpampas.jpeg") ;
+		/*opacity: 0.5;*/
+		background-repeat: no-repeat;
+		background-size: 50% contain;
+		background-position: 0% 30%;
+	
+	/*background: linear-gradient(218.02deg, rgb(172, 163, 162) 0%, rgb(12, 49, 56) 90%);*/
 }
 
 

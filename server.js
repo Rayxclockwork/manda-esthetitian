@@ -12,7 +12,7 @@ require('dotenv').config();
 
 // Server//
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 //app middleware//
 app.use(express.static('./public'));

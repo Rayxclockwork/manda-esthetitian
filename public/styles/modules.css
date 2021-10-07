@@ -1,19 +1,24 @@
 #logoimg{
     width:8em;
     height:10em;
-    padding: 1em;
+    padding: 0.02em;
 }
 
 
 footer main{
     display: flex;
-    width:65%;
+    width:75%;
     margin: 0 auto;
     align-items: center;
     line-height: 1.5em;
 }
 
-footer main section:nth-child(1){
+footer section:nth-child(1){
+    padding: 0.5em;
+}
+
+footer section:nth-child(2){
+    display: flex;
     padding: 0.5em;
 }
 
