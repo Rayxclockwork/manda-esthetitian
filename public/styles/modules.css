@@ -68,11 +68,13 @@ ul{
 }
 
 #portfolio{
-    display:flex;
+    
+    align-items: center;
+    justify-content:center ;
     padding-bottom: 40px;
 }
 
-#lashLift, #lashExtension1, #lashExtension2{
+#lashLift, #lashExtension1, #lashExtension2, #lashBeforeAndAfter1, #LashBeforeAndAfter2, #microblading{
     height: 300px;
     width:450px;
     margin-top:40px;
