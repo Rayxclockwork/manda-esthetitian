@@ -5,6 +5,7 @@
 }
 
 
+
 footer main{
     display: flex;
     width:75%;
@@ -41,7 +42,12 @@ h3 {
 
 h4 {
     font-size: 1.5em;
-    color:rosybrown;
+    color:rgb(90,46,52);
+}
+
+h5{
+    font-size: 1.8em;
+    text-decoration: underline;
 }
 
 ul{
@@ -52,13 +58,13 @@ ul{
     font-family: cursive;
     font-size: 1.5em;
     line-height: 0.9em;
-    color:rgb(163,118,73);
+    color:rgb(90,46,52);
     margin: 0 auto;
     padding: 20px;
     margin-top: 20px;
     margin-bottom:20px;
     width: 60%;
-    border: solid rgba(200, 132, 81, 0.851) 3px;
+    border: solid rgb(90,46,52) 3px;
 }
 
 #manda{
@@ -68,18 +74,15 @@ ul{
 }
 
 #portfolio{
-    
-    align-items: center;
-    justify-content:center ;
-    padding-bottom: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
 }
 
-#lashLift, #lashExtension1, #lashExtension2, #lashBeforeAndAfter1, #LashBeforeAndAfter2, #microblading{
-    height: 300px;
-    width:450px;
-    margin-top:40px;
-    
-
+#portfolio li{
+    height: 250px;
+    width: 300px;
+    margin: 100px;
 }
 
 #mapLocation{
