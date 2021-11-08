@@ -61,10 +61,14 @@ ul{
     color:rgb(90,46,52);
     margin: 0 auto;
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom:20px;
+    padding-top: 20px;
+    padding-bottom:20px;
     width: 60%;
     border: solid rgb(90,46,52) 3px;
+}
+
+.serviceList p {
+    padding-left: 30px;
 }
 
 #manda{

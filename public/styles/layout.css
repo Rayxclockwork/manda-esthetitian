@@ -51,12 +51,12 @@ body section div:nth-child(1){
 }
 
 
-body{
+.homepage, .bg{
 	content:"";
     	background: linear-gradient(30deg, rgba(222,216,216,0.1) 0%, rgba(215,181,170,1) 41%, rgba(178,143,138,1) 100%), url("../assets/pinkpampas.jpeg") ;
 		background-repeat: no-repeat;
-		background-size: 50% contain;
-		background-position: 0% 75%;
+		background-size: cover, 50%;
+		background-position: 0 0, bottom left;
 }
 
 
